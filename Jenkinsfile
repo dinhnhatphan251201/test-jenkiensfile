@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                sh 'npm install'
+                git 'https://github.com/dinhnhatphan251201/test-jenkiensfile.git'
             }
         }
 
